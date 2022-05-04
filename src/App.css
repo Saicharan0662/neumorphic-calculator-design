@@ -14,8 +14,7 @@
   height: 470px;
   width: 255px;
   border-radius: 12px;
-  box-shadow: 10px 10px 30px 0px #AEAEC066;
-  box-shadow: -10px -10px 30px 0px #FFFFFF;
+  box-shadow: rgba(167, 165, 175, 0.15) 0px 48px 100px 0px;
 }
 
 .screen {
@@ -57,6 +56,18 @@
   align-items: center;
   flex-wrap: wrap;
   row-gap: 2px;
+  position: relative;
+}
+
+.btnCont span {
+  width: 66px;
+  height: 4px;
+  border: 2px solid #d3d0d06f;
+  border-radius: 30%;
+  position: absolute;
+  top: 7px;
+  left: 38%;
+  box-shadow: rgba(167, 165, 175, 0.15) 0px 48px 100px 0px;
 }
 
 .btn {
@@ -68,6 +79,6 @@
   padding: 8px;
   align-items: center;
   font-weight: bolder;
-  border-radius: 6px;
+  border-radius: 8px;
   margin: 1px;
 }

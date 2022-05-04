@@ -18,6 +18,7 @@ function App() {
           </div>
         </div>
         <div className="btnCont">
+          <span></span>
           {btnTexts.map((text, index) => {
             return <Button key={index} text={text} />
           })}
