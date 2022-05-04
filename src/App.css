@@ -132,3 +132,21 @@
   box-shadow: 10px 10px 30px 0px #AEAEC066;
   box-shadow: -10px -10px 30px 0px #FFFFFF;
 }
+
+@media screen and (max-width: 1110px) {
+  .rectangle {
+    display: none;
+  }
+
+  .square {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .big-circle {
+    display: none;
+  }
+}
