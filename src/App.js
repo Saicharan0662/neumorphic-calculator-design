@@ -11,7 +11,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="screen"></div>
+        <div className="screen">
+          <div className="textCont">
+            <div className="oprText">120 x 10.5</div>
+            <div className="resultText">1260</div>
+          </div>
+        </div>
         <div className="btnCont">
           {btnTexts.map((text, index) => {
             return <Button key={index} text={text} />
