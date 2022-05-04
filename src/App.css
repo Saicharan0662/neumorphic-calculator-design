@@ -9,8 +9,8 @@
 }
 
 .container {
-  height: 450px;
-  width: 220px;
+  height: 470px;
+  width: 255px;
   border-radius: 12px;
   box-shadow: 10px 10px 30px 0px #AEAEC066;
   box-shadow: -10px -10px 30px 0px #FFFFFF;
@@ -28,4 +28,23 @@
   border-radius: 12px;
   position: relative;
   bottom: 9px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 2px;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  box-shadow: 10px 10px 30px 0px #AEAEC066;
+  box-shadow: -10px -10px 30px 0px #FFFFFF;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  font-weight: bolder;
+  border-radius: 6px;
+  margin: 1px;
 }
