@@ -1,5 +1,9 @@
 import './App.css';
 import Button from './components/Button';
+import Circle from './components/Circle';
+import Rectangle from './components/Rectangle';
+import BigCircle from './components/BigCircle';
+import Square from './components/Square';
 
 function App() {
 
@@ -10,6 +14,10 @@ function App() {
 
   return (
     <div className="App">
+      <Rectangle />
+      <Square />
+      <Circle />
+      <BigCircle />
       <div className="container">
         <div className="screen">
           <div className="textCont">
